@@ -15,6 +15,10 @@ btn.onclick=function(){
                 p.classList.add("card-text");
                 p.innerText=post.body;
 
+                let h1=document.createElement("h1");
+                h1.classList.add("card-title");
+                h1.innerText="User Id: "+post.id;
+
                 let h5=document.createElement("h5");
                 h5.classList.add("card-title");
                 h5.innerText=post.title;
@@ -28,7 +32,7 @@ btn.onclick=function(){
                 let col=document.createElement("div")
                 col.classList.add("col-lg-3","col-12");
 
-                cardBody.append(h5,p);
+                cardBody.append(h1,h5,p);
                 card.append(cardBody);
                 col.append(card);
                 allPost.append(col);

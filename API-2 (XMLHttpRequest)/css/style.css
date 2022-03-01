@@ -10,4 +10,19 @@
   min-height: 250px;
   overflow: hidden;
 }
+
+h1 {
+  color: #f8f8f8;
+  font-size: 1rem;
+  background-color: rgba(63, 60, 60, 0.623);
+  padding: 0.5rem;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=style.css.map */

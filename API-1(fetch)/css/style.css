@@ -19,6 +19,12 @@ img:hover {
 .card {
   padding: 0px !important;
   cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.card:hover {
+  background-color: rgba(109, 161, 144, 0.555);
 }
 
 .active {

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+img{
+    width: 100%;
+}
+.card{
+    padding: 0px !important;
+    cursor: pointer;
+}
+.active{
+    background-color: yellowgreen;
+}

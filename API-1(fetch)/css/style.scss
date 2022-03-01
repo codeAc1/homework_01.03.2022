@@ -6,11 +6,21 @@
 }
 img{
     width: 100%;
+    transition: .4s;
+    
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 .card{
     padding: 0px !important;
     cursor: pointer;
+    
+    
 }
 .active{
     background-color: yellowgreen;
+}
+.card-body{
+    overflow: hidden;
 }

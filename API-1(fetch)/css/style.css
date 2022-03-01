@@ -9,11 +9,14 @@ img {
   width: 100%;
   -webkit-transition: .4s;
   transition: .4s;
+  border-radius: 50%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 .card {
